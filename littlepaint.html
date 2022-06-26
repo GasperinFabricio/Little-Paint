@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <link rel = 'stylesheet' href = 'littlepaint.css'>
+    <meta charset="UTF-8">
+    <head>
+        <title>Bipbup</title>
+    </head>
+    <body>
+       <div class='container'>
+            <div class = 'fixed'>L I T T L E</div>
+            <div class = 'flex-item'>P A I N T</div>
+       </div>
+        <div id = 'divCanvas'>
+            <!-- Eu sei que está feio professora, não sou tão criativo assim... me desculpe! :( -->
+            <canvas id='myCanvas' width="800" height="500" style="border:2px dotted #000;"></canvas>
+            <div id = 'divson'>Shift + Click para aumentar o tamanho do pincel. __ Ctrl + Click para diminuir o tamanho do pincel.</div>
+        </div>
+        <br>
+        <div class = 'container'>
+        <div id = 'paleta' class = 'fixed'>Escolha uma cor <input type="color"></div>
+        <div id = 'vazio'></div>
+        <div id = 'botao' class = 'flex-item'><button id = 'htmlBotao'>Reset!</button></div>
+        </div>
+        <script src="littlepaint.js"></script>
+    </body>
+</html>
